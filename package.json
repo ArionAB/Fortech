@@ -1,0 +1,30 @@
+{
+  "name": "fortech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec npx ts-node index.ts",
+    "users": "nodemon --exec npx ts-node users.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArionAB/Fortech.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArionAB/Fortech/issues"
+  },
+  "homepage": "https://github.com/ArionAB/Fortech#readme",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.31",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
